@@ -1,7 +1,6 @@
-# Angular QuickStart Source
-[![Build Status][travis-badge]][travis-badge-url]
+# Angular QuickStart Source + Bootstrap CSS
 
-This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
+This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html) plus bootstrap CSS (navbar and basic routing),
 the foundation for most of the documentation samples and potentially a good starting point for your application.
 
 It's been extended with testing support so you can start writing tests immediately.
@@ -29,7 +28,7 @@ We recommend [nvm](https://github.com/creationix/nvm) for managing multiple vers
 
 Clone this repo into new project folder (e.g., `my-proj`).
 ```shell
-git clone https://github.com/angular/quickstart  my-proj
+git clone https://github.com/Zurc/ngbootstart  my-proj
 cd my-proj
 ```
 
@@ -164,6 +163,3 @@ A custom reporter (see `protractor.config.js`) generates a  `./_test-output/prot
 which is easier to read; this file is excluded from source control.
 
 Shut it down manually with `Ctrl-C`.
-
-[travis-badge]: https://travis-ci.org/angular/quickstart.svg?branch=master
-[travis-badge-url]: https://travis-ci.org/angular/quickstart
