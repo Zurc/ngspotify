@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SpotifyService } from './services/spotify.service';
 
 @Component({
   selector: 'my-app',
@@ -10,5 +11,6 @@ import { Component } from '@angular/core';
     </div>
   </div>
   `,
+  providers: [ SpotifyService ]
 })
 export class AppComponent  { name = 'Angular'; }
